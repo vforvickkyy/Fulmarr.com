@@ -19,7 +19,7 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 
 // Particles
-const count = 10000;
+const count = 6000;
 const positions = new Float32Array(count * 3);
 
 for (let i = 0; i < positions.length; i++) {
